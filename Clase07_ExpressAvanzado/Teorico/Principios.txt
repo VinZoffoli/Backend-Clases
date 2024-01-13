@@ -1,0 +1,7 @@
+Una aplicacion RESTful requiere un enfoque de diseño distinto a la forma tipica de pensar en un sistema: lo contrario a un RPC
+
+RPC: (Remote Procedure Calls, llamadas a procedimientos remotos), basa su funcionamiento en las operaciones que puede realizar el sistema (acciones, usualmente verbos). Ej: getUsuario()
+
+En REST, por el contrario, el enfasis se pone en los recursos (usualmente sustantivos), especialmente en los nombres que se le asigna a cada tipo de recurso. Ej. Usuarios
+
+Cada funcionalidad relacionada con este recurso tendria sus propios identificadores y peticiones en HTTP

@@ -1,0 +1,1 @@
+Acronimo para Hyper Text Transfer Protocol. Es el protocolo que nos permite comunicarnos a traves de internet

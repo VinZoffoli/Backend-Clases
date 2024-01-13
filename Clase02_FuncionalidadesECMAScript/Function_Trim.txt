@@ -1,0 +1,4 @@
+La funcion trim se encarga de eliminar todos los espacios, por ejemplo:
+
+let cadena1 = '           hola'
+console.log(cadena1.trim()); //Quedaria asi: 'hola'

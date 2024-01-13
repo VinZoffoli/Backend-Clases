@@ -1,0 +1,19 @@
+Cuando realizamos alguna peticion al servidor mediante el protocolo HTTP, el servidor debe respondernos no solo con informacion, sino con un estado de proceso. Este es un codigo que nos permitira saber como se encuentra el proceso, o como finalizo.
+
+Ejemplo:
+
+- 1XX: informational
+- 2XX: Sucess
+- 3XX: Redirection
+- 4XX: Client Error
+- 5XX: Server Error
+
+Cuando el servidor responde con un codigo de estado, esto permite saber que ocurrio conla consulta que estabamos haciendo, y da informacion al cliente sobre que ha ocurrido
+
+- 200: Indica que la peticion se proceso correctamente. No hubo ningun tipo de inconveniente desde la consulta hasta la respeusta.
+- 3XX: Hace referencia a las redirecciones, cuando un recurso se ha movido o necesitamos apuntar a otro servicio.
+- 400: Se utiliza cuando el cliente realiz alaguna peticion que no cumpla con las reglas de comnicacion (una mala consulta, tal vez le falto enviar un dato, o venia en un formato incorrecto).
+- 401: Se utiliza cuando el cliente no se ha indentificado con el servidor bajo alguna crdencial, no puede acceder al recurso.
+- 403: Se utiliza cuando el cliente ya se indentifico, pero sus credenciales no tienen el nivel de privilegios suficientes para acceder al recurso, es el equivalente a decir: "Ya se quien eres, pero ni asi estas autorizado".
+- 404: Se utiliza cuando el recurso no se ha encontrado, ya sea algun dato solicitado o incluso el endpoint mismo.
+- 500: Se utiliza cuando algo ocurrio en el servidor, no necesariamente un error del cliente, sino un error o "detalle" que no haya considerado el servidor al tratar con algun caso.

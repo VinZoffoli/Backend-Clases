@@ -1,0 +1,6 @@
+Ya tenemos las reglas para comunicarse, pero, ¿Que tal la estructura del mensaje?
+Cuando hacemos una peticion o cuando recibimos una respuesta, esta debe tener un formato .REST (REpresentational State Transfer) permite definir la estructura que deben tener los datos para poder transferirse.
+
+La API respondia a preguntas como comunicarse correctamente, sin embargo, REST define como debe ser el cuerpo del mensaje a transmitir. (puedes llegar a hablar con el presidente si cumples con el protocolo (HTTP) y las reglas (API), pero, ¿De que nos servira si la forma en que estructuramos nuestro mensaje (REST) no es correcta?)
+
+Los dos formatos mas importantes son JSON y XML. La utilizacion de la estructura dependera de las necesidades del proyecto. Nosotros utilizaremos JSON. Como notaras, ¡Un JSON parece un objeto!, asi que es mucho mas amigable con la sintaxis.

@@ -1,0 +1,1 @@
+Metodo del protocolo HTTP que permite indicar al servidores que deseamos hacer una consulta de obtencion de datos

@@ -1,0 +1,11 @@
+Codigo que indica el estado de la peticion en el servidor
+
+1XX: Codigos informativos, sirven para indiar la peticion que sigue en curso
+2XX: Codigos de resolucion satisfactoria, indican que todo salio "ok" en la peticion.
+3XX: Codigos de redireccion, indicar que tuvo que moverse el recurso
+4XX: Codigos de error, principalmente rrores del lado del cliente.
+5XX: Codigos de error, principalmente rrores del lado del servidor.
+
+Metodos: indican las diferente soperaciones que podemos hacer con un recurso.
+
+Postman: Software paa realizar peticiones como si fuesemos un cliente, donde podemos visualizar los resultados y enviar informacion necesaria als ervidor al realizar una consulta.

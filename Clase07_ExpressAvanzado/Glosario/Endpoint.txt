@@ -1,0 +1,1 @@
+Punto (ruta) especifico bajo el cual el servidor conectara con el servicio a proporcionar

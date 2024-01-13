@@ -1,0 +1,18 @@
+Es un conjunto de definiciones y reglas que permiten que dos equipos puedan integrarse para trabjar juntos.
+La mejor analogia que hay para comprender esto es que una API funge como un "contrato" entre el front y el back
+
+La API permite responder preguntas como:
+- ¿A que endpoint debo apuntar para la tarea que necesito?
+- ¿Que metodo debo utilizar para ese recurso?
+- ¿Que informacion debo enviar para realizar correctamente mi peticion?
+
+Cada mensaje HTTP contiene toda la informacion necesaria para comprender la peticion.
+Como resultado, ni el cliente ni el servidor necesitan recordar ningun estado de las comunicaciones entre mensajes
+
+Esta restriccion mantiene al cliente y al servidor debilmente acoplados: el cliente no necesita conocer los detalles de implementacion del servidor y el servidor se "despreocupa" de como son usados los datos que envia el cliente 
+
+Operaciones comunes:
+- Todos los recursos detras de nuestra API deben poder ser consumidos mediante peticiones HTTP, preferentemente sus princiaples (POST, GET, PUT, DELETE). Con frecuencia estas operaciones de equiparan a las operaciones CRUD en bases de datos (en ingles: Create, Read, Update, Delete, en español: Alta lectura, modificacion, y baja).
+
+- Al tratarse de peticiones HTTP, estas deberan devolver con sus respuestas los correspondientes codigos de estado, informando el resultado de las mismas
+

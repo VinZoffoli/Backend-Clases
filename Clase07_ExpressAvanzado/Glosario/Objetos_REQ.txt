@@ -1,0 +1,2 @@
+Objeto usado dentro de los servicios de express para poder realizar consultas mas complejas.
+Sus principales componentes son: req.method, req.url, req.query, req.params y req.body

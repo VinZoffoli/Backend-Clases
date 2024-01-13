@@ -1,0 +1,6 @@
+
+GET /users: obtener todos los objetos de un recurso
+GET /users/:id: obtener un objeto de un recurso
+POST /users: crear un objeto de un recurso
+PUT /users/:id actualizar un objeto de un recurso
+DELETE /users/:id: eliminar un objeto de un recurso

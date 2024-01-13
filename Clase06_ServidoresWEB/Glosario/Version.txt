@@ -1,0 +1,1 @@
+Cada una de las etapas y cambios que representa nuestro proyecto, pueden ser mayores, menores o parches

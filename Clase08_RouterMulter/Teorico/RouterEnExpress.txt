@@ -1,0 +1,3 @@
+Un router en express nos permitira separar los endpoints "comunes" en entidades separadas que fungiran como "mini aplicaciones", las cuales tomaran peticions que concuerden con dicho endpoint y asi redireccionarse a esta mini aplicacion.
+
+De esta manera, nuestro codigo resultara mas organizado, y las diferentes entidades tendras aislado el comportamiento interno, como configuraciones, middlewares, etc.

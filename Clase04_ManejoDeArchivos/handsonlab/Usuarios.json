@@ -1,0 +1,23 @@
+[
+    {
+        "nombre": "Vincenzo",
+        "apellido": "Lettieri",
+        "edad": 23,
+        "curso": "Backend",
+        "id": 1
+    },
+    {
+        "nombre": "Vincenzo",
+        "apellido": "Lettieri",
+        "edad": 23,
+        "curso": "Backend",
+        "id": 2
+    },
+    {
+        "nombre": "Vincenzo",
+        "apellido": "Lettieri",
+        "edad": 23,
+        "curso": "Backend",
+        "id": 3
+    }
+]

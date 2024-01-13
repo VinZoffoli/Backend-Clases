@@ -1,0 +1,19 @@
+Funciones:
+Recordemos que las fuynciones son bloques de codigo que pueden ser llamados en diferentes
+momentos de la ejecucion de nuestro programa. Pueden tener su identificador al declararse, o ser anonimas.
+
+- Tradicionales: Declaradas bajo la sintaxis:
+function nombre(args){
+    return args;
+}
+
+- Arrow Function: Declaradas bajo la sintaxis:
+const nombre ? (args) => {
+    return args;
+}
+
+- Funcion definida: Cuenta con un nombre especifico, usualmente se usan para NO reasignarse
+
+- Funcion anonima: No cuenta con nombre, solo implementacion. Solo usualmente pensadas
+para reasignarse o utilizarse en un proceso sin almacenarse en memoria.
+

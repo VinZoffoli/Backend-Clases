@@ -1,0 +1,8 @@
+Uno de los problemas principales de los imports tradicionales, es que terminamos importando TODOS LOS MODULOS, aun cuando no estamos utilizando todos al mismo tiempo.
+Con dynamic import, esto cambia.
+
+Dynamic import permite importar solo los modulos que necesito segun una situacion particular, lo cual permite optimizar la utilizacion de recursos, al pedir a la computadora solo lo que estare utilizando.
+
+Es utilizado principalmente en codigos que utilizan el patron de diseño Factory
+
+Practicamente sirve para que las librerias importadas solo sean usadas si son necesarias, sino no

@@ -1,0 +1,1 @@
+Sistemq eu permite recibir peticiones de otras computadores y devolver una respuesta a estandares
